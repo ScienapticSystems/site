@@ -1,0 +1,272 @@
+ul.nav-tabs.affix-top {
+	position: relative;
+	top: 500px;
+	right: 125px !important;
+}
+
+ul.nav-tabs.affix {
+	position: fixed !important;
+	top: 30%;
+	right: 0px;
+}
+
+ul.nav-tabs.affix-bottom {
+	position: fixed !important;
+}
+
+ul.nav-tabs {
+	margin-right: 10px;
+}
+
+ul.nav-tabs li {
+	margin: 0 !important;
+}
+
+ul.nav-tabs li:first-child {
+	border-top: none;
+	background-image: url(../img/scroll_btn_top.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+ul.nav-tabs>li:first-child.active>a.focus {
+	border-top: none;
+	background: transparent;
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+ul.nav-tabs>li:last-child.active>a.focus {
+	border-top: none;
+	background: transparent;
+	background-image: url(../img/scroll_btn_bottom_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+ul.nav-tabs li:last-child a {
+	background-image: url(../img/scroll_btn_bottom.png) !important;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+ul.nav-tabs li a {
+	margin: 0;
+	padding: 0px !important;
+	border: none !important;
+	border-radius: 0;
+	background-image: url(../img/scroll_btn_normal.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li.active>a {
+	border: none !important;
+	background: transparent;
+	background-image: url(../img/scroll_btn_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+.nav-tabs>#first>a:hover, .nav-tabs>#first.active>a {
+	border: none !important;
+	background: transparent;
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+#last>a:hover, #last.active>a {
+	border: none !important;
+	background: transparent;
+	background-image: url(../img/scroll_btn_bottom_active.png) !important;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+.nav-tabs {
+	border-bottom: none !important;
+}
+
+ul.nav-tabs li:first-child a {
+	background-image: url(../img/scroll_btn_top.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+.scrollnavbrd {
+	position: fixed;
+	z-index: 999;
+	right: 7%;
+	margin-top: 30%;
+}
+
+@media screen and (max-width:1099px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 0px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: fixed;
+		top: 500px;
+		right: 0px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		right: 0px;
+		top: 30%;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 0px;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width:1152px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 10px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 10px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 30%;
+		right: 10px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 10px;
+	}
+}
+
+@media screen and (min-width: 1153px) and (max-width:1280px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 90px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 90px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 40%;
+		right: 90px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 90px;
+	}
+}
+
+@media screen and (min-width: 1281px) and (max-width:1366px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 133px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 133px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 30%;
+		right: 133px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 133px;
+	}
+}
+
+@media screen and (min-width: 1367px) and (max-width:1440px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 173px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 173px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 30%;
+		right: 173px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 173px;
+	}
+}
+@media screen and (min-width: 1441px) and (max-width:1600px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 253px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 253px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 30%;
+		right: 253px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 253px;
+	}
+}
+
+@media screen and (min-width: 1601px) {
+	.scrollnavbrd {
+		position: fixed;
+		z-index: 999;
+		right: 253px;
+		margin-top: 30%;
+	}
+	ul.nav-tabs.affix-top {
+		position: relative;
+		top: 500px;
+		right: 253px !important;
+	}
+	ul.nav-tabs.affix {
+		position: fixed !important;
+		top: 30%;
+		right: 253px;
+	}
+	ul.nav-tabs.affix-bottom {
+		position: fixed !important;
+		right: 253px;
+	}
+}

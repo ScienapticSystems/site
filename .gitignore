@@ -1,0 +1,11 @@
+.svn
+scienaptic/target
+.classpath
+.project
+.settings
+.DS_Store
+._.DS_Store
+.ftpquota
+
+
+

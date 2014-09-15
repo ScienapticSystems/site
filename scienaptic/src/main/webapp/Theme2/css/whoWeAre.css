@@ -1,0 +1,56 @@
+/* =Scene1*/
+#scene1{
+padding-top: 150px;
+}
+.sci_scene1{
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.25);
+}
+
+/* =Scene2*/
+#scene2{
+	text-align: center;
+}
+
+
+/* =Scene3*/
+#scene3{
+	text-align: center;
+}
+
+#scene3 ul {
+	text-align: left;
+}
+
+
+/* =Scene4*/
+#scene4{
+	text-align: center;
+}
+
+
+
+/* 	-------------------------------------------
+		Media Queries
+	------------------------------------------
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+	
+}
+
+

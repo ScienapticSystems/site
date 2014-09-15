@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+#contact_scene1 {
+	background-color: #18d5f1;
+	background-image: url(../img/home_pattern_01.png);
+	background-repeat: repeat-x;
+	min-height: 700px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.bottom_arrow_bg { #
+	background-image: url(../img/arrow2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 700px;
+}
+
+.contact_sci_scene1 {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.contact_sci_scene1>h1 {
+	font-size: 3.2em;
+	font-style: italic;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.40);
+}
+
+.contact_sci_scene1>p {
+	font-size: 1.8em;
+	font-style: italic;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.40);
+}
+
+.scroll_link_brd {
+	margin-top: 160px;
+}
+
+.section2 {
+	background-image: url(../img/synaptic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 800px;
+	position: relative;
+	margin-top: -100px;
+	background-color: #18d5f1;
+}
+
+.toparrowbg { #
+	background-image: url(../img/svg/arrow_top2.svg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	width: 100%;
+	min-height: 800px;
+}
+
+.joinusLink {
+	background-color: #252525;
+	width: 100%;
+	text-align: center;
+	padding: 12px;
+}
+
+.joinusLink>p>a {
+	color: #999;
+	padding: 8px;
+	font-size: 2em;
+}
+
+.joinusLink>p>a:hover {
+	color: #fff;
+	padding: 12px;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.contactformbrd {
+	padding-top: 0px;
+}
+
+.formbrd {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.sci_textinput {
+	width: 100%;
+	color: #333;
+	font-size: 1.2em;
+	background-color: transparent;
+	border-style: dotted;
+	border-width: 0px 0px 2px 0px;
+	border-color: #999999;
+	outline: 0;
+	margin-bottom: 16px;
+}
+
+.submitlink>a {
+	color: #666;
+	font-size: 2em;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.cancellink>a {
+	color: #999;
+	font-size: 1em;
+	padding: 12px;
+	text-decoration: underline;
+}
+
+#contactform {
+	display: none;
+	min-height: 10px;
+	-webkit-transition: min-height 1s;
+	-moz-transition: min-height 1s;
+	-ms-transition: min-height 1s;
+	-o-transition: min-height 1s;
+	transition: min-height 1s;
+	width: 100%;
+	margib-top: 24px;
+}
+
+#contactform:target {
+	display: inline-block;
+	min-height: 600px;
+	margib-top: 24px;
+	-webkit-transition: min-height 1s;
+	-moz-transition: min-height 1s;
+	-ms-transition: min-height 1s;
+	-o-transition: min-height 1s;
+	transition: min-height 1s;
+}

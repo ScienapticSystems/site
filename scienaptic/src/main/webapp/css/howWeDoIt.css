@@ -1,0 +1,207 @@
+/* =Scene1*/
+#scene1 {
+	background-color: #18d5f1;
+	background-image: url(../img/home_pattern_01.png);
+	background-repeat: repeat-x;
+	min-height: 700px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.sci_scene1 {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.sci_scene1>h1 {
+	font-size: 3.5em;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.20);
+}
+
+.sci_scene1>p {
+	font-size: 1.8em;
+	font-style: italic;
+	text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.20);
+}
+
+.scroll_link_brd {
+	margin-top: 160px;
+}
+
+.bottom_arrow_bg { #
+	background-image: url(../img/arrow2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 700px;
+}
+
+#scene2 {
+	min-height: 600px;
+	background-color: #fff;
+	background-image: url(../img/howwedo_patter.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+}
+
+.h_text_brd {
+	padding-top: 5%;
+}
+
+.h_text_brd>h4 {
+	font-size: 2em;
+	color: #666;
+	font-style: italic;
+}
+
+.Icon_brd {
+	padding-right: 60px;
+}
+
+.how_arrow_bg {
+	background-image: url(../img/arrow2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 600px;
+}
+
+.hline {
+	width: 160px;
+	height: 2px;
+	background-color: #8cc63f;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.h_text_brd>p {
+	color: #666;
+	font-size: 1.5em;
+}
+
+#scene3 {
+	min-height: 600px;
+	background-color: #fff;
+	background-image: url(../img/howwedo_patter.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+}
+
+#scene4 {
+	min-height: 600px;
+	background-color: #fff;
+	background-image: url(../img/howwedo_patter.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+}
+
+#scene5 {
+	min-height: 600px;
+	background-color: #fff;
+	background-image: url(../img/howwedo_patter.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+}
+
+.scrollnavbrd {
+	position: fixed;
+	z-index: 999;
+	right: 125px !important;
+}
+
+a>.linktop {
+	background-image: url(../img/scroll_btn_top.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop:hover {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop:active {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop_active {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linkbtn {
+	background-image: url(../img/scroll_btn_normal.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbtn:hover {
+	background-image: url(../img/scroll_btn_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbtn:active {
+	background-image: url(../img/scroll_btn_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom {
+	background-image: url(../img/scroll_btn_bottom.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom:hover {
+	background-image: url(../img/scroll_btn_bottom_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom:active {
+	background-image: url(../img/scroll_btn_bottom_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+/* 	-------------------------------------------
+		Media Queries
+	------------------------------------------
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

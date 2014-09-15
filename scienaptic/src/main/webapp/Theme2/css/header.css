@@ -1,0 +1,191 @@
+
+/* =Header*/
+.sci_navbar{
+	margin-bottom: 0px;
+	background-color:#333333;
+	border-radius:0px;
+	border-bottom:solid 2px #222222;
+	border-top:none;
+}
+
+.sci_bottomNav{
+	width: 100%;
+	background-color: #333333;
+}
+
+.sci-navbar{
+	
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color:#999999;
+	margin:0px;
+	padding-top:22px;
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:#fff;
+	
+	background-image:url(../img/menu_indicator.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.navbar-inverse .navbar-nav > li > .active{
+	color:#fff;
+	
+}
+
+.sci-caption{
+	color:#999;
+	font-style:italic;
+	font-size:1em;
+}
+.sci-caption:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.sci_social{
+	list-style: none;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	
+}
+
+.sci_social>li>a{
+	font-size:1em;
+	color:#999;
+}
+
+.sci_social>li>a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.brand-logo-brd{
+	float:left;
+	padding:4px;
+}
+
+.brand-logo{
+	
+}
+
+.sci_social li {
+	list-style: none;
+	float: left;
+	padding-left: 15px; 
+	margin-bottom: 0px;
+}
+
+
+/* =Footer*/
+.sci_footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #79BC45;
+}
+
+/* =Footer1*/
+.sci_footer1{
+	text-align: left;
+	background-color: #1c1c1c;
+	color: #525252;
+}
+
+.sci_footer1 ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.sci_footer1 a{
+	color: #525252;
+}
+
+.sci_footer1 a:hover{
+	color: #ffffff;
+}
+
+.sci_social_footer li{
+	float: left;
+}
+
+.leftInfo{}
+
+.rightInfo{}
+
+.rightInfo a{
+	padding-left: 20px;
+}
+
+/* = Footer2 */
+
+.sci_footer2{
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: #171717;
+	color: #444444;
+	text-align: center;
+}
+
+.sci_footer2 p {
+
+}
+
+.sci_footer2 a{
+	color: #545454;
+	text-decoration: none;
+}
+
+.sci_footer2 a:hover{
+	color: #ffffff;
+}
+
+
+/* 	-------------------------------------------
+		Media Queries
+	------------------------------------------
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+	/* =Footer*/
+	.sci_bottomNav{
+		background-color: #333333;
+	}
+
+	.leftInfo{
+		text-align: left;
+	}
+
+	.rightInfo{
+		text-align: right;
+	}
+
+	.sci_social_footer li{
+		float: right;
+	}
+
+	.sci_footer2{
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+
+	.sci_bottomNav{
+		background-color: #333333;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+	.sci_bottomNav{
+			background-color: #333333;
+			padding:6px;
+		}
+}
+
+
+
+

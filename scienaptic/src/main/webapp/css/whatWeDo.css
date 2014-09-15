@@ -1,0 +1,447 @@
+/* =Scene1*/
+#scene1 {
+	background-color: #18d5f1;
+	background-image: url(../img/home_pattern_01.png);
+	background-repeat: repeat-x;
+	min-height: 700px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.sci_scene1 {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.sci_scene1>h1 {
+	font-size: 3.5em;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.20);
+}
+
+.sci_scene1>p {
+	font-size: 1.8em;
+	font-style: italic;
+	text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.20);
+}
+
+.bottom_arrow_bg { #
+	background-image: url(../img/arrow2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 700px;
+}
+
+.scroll_link_brd {
+	margin-top: 160px;
+}
+
+/* =Scene2*/
+#scene2 {
+	padding-top: 40px;
+	color: #666;
+	padding-bottom: 80px;
+}
+
+.scene2Content>h2 {
+	font-size: 2em;
+	color: #333;
+}
+
+.h_blueLine {
+	height: 2px;
+	background-color: #18d5f1;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brd2 {
+	padding: 24px;
+}
+
+.row>div>h4 {
+	font-size: 1.8em;
+}
+
+.row>div>p {
+	font-size: 1.2em;
+}
+
+.Omni_Channel_CRM_round_frame1 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/360.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Omni_Channel_CRM_round_frame2 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/multichannel.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Omni_Channel_CRM_round_frame3 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/marketing.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Omni_Channel_CRM_round_frame4 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/sales_force.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+/* =Scene3*/
+#scene3 {
+	background-color: #f3f3f3;
+	padding-top: 40px;
+	color: #666;
+	padding-bottom: 80px;
+}
+
+.scene3Content>h2 {
+	font-size: 2em;
+	color: #333;
+}
+
+.h_blueLine {
+	height: 2px;
+	background-color: #18d5f1;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brd2 {
+	padding: 24px;
+}
+
+.row>div>h4 {
+	font-size: 1.8em;
+}
+
+.row>div>p {
+	font-size: 1.2em;
+}
+
+.Risk_Management_round_frame1 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/risk_assesment.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Risk_Management_round_frame2 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/portfolio.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Risk_Management_round_frame3 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/regulation.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Risk_Management_round_frame4 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/management_of_fraud.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+/* =Scene4*/
+#scene4 {
+	padding-top: 40px;
+	background: #ffffff;
+	color: #666;
+	padding-bottom: 80px;
+}
+
+.scene4Content>h2 {
+	font-size: 2em;
+	color: #333;
+}
+
+.h_blueLine {
+	height: 2px;
+	background-color: #18d5f1;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brd2 {
+	padding: 24px;
+}
+
+.row>div>h4 {
+	font-size: 1.8em;
+}
+
+.row>div>p {
+	font-size: 1.2em;
+}
+
+.analytics_advisory_round_frame1 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/data_science_coe.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.analytics_advisory_round_frame2 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/cutting_edge.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.analytics_advisory_round_frame3 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/storyboarding.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Omni_Channel_CRM_round_frame4 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/sales_force.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+/* =Scene5*/
+#scene5 {
+	background-color: #f3f3f3;
+	padding-top: 40px;
+	color: #666;
+	padding-bottom: 80px;
+}
+
+.scene5Content>h2 {
+	font-size: 2em;
+	color: #333;
+}
+
+.h_blueLine {
+	height: 2px;
+	background-color: #18d5f1;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brd2 {
+	padding: 24px;
+}
+
+.row>div>h4 {
+	font-size: 1.8em;
+}
+
+.row>div>p {
+	font-size: 1.2em;
+}
+
+.Data_management_round_frame1 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/graphic-a.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Data_management_round_frame2 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/real_time_reporting.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Data_management_round_frame3 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/regulation.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.scrollnavbrd {
+	position: fixed;
+	z-index: 999;
+	right: 54px;
+	margin-top: 200px
+}
+
+a>.linktop {
+	background-image: url(../img/scroll_btn_top.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop:hover {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop:active {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linktop_active {
+	background-image: url(../img/scroll_btn_top_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 43px;
+}
+
+a>.linkbtn {
+	background-image: url(../img/scroll_btn_normal.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbtn:hover {
+	background-image: url(../img/scroll_btn_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbtn:active {
+	background-image: url(../img/scroll_btn_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom {
+	background-image: url(../img/scroll_btn_bottom.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom:hover {
+	background-image: url(../img/scroll_btn_bottom_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+a>.linkbottom:active {
+	background-image: url(../img/scroll_btn_bottom_active.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 61px;
+}
+
+/* 	-------------------------------------------
+		Media Queries
+	------------------------------------------
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

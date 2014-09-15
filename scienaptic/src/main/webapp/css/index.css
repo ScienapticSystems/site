@@ -1,0 +1,281 @@
+.how_arrow_bg { #
+	background-image: url("../img/arrow2.svg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 600px;
+	width: 100%;
+}
+
+.howWeDo {
+	background-color: #fff;
+	background-image: url("../img/howwedo_patter.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	padding-top: 150px;
+}
+
+.h_text_brd {
+	padding-top: 5%;
+	text-align: left;
+}
+
+.h_text_brd>h4 {
+	color: #666;
+	font-size: 2em;
+	font-style: italic;
+}
+
+.hline {
+	background-color: #8cc63f;
+	height: 2px;
+	margin-bottom: 24px;
+	margin-top: 24px;
+	width: 160px;
+}
+
+.h_text_brd>p {
+	color: #666;
+	font-size: 1.5em;
+}
+
+.white_gray_gradient {
+	text-align: center;
+	padding-top: 56px;
+	padding-bottom: 100px;
+	background: rgb(255, 255, 255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(255
+		, 255, 255, 1)), color-stop(100%, rgba(238, 238, 238, 1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#eeeeee', GradientType=0); /* IE6-9 */
+}
+
+@charset "utf-8";
+
+#contact_scene1 {
+	background-color: #18d5f1;
+	background-image: url(../img/home_pattern_01.png);
+	background-repeat: repeat-x;
+	min-height: 700px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.bottom_arrow_bg { #
+	background-image: url(../img/arrow2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 700px;
+}
+
+.contact_sci_scene1 {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.contact_sci_scene1>h1 {
+	font-size: 3.2em;
+	font-style: italic;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.40);
+}
+
+.contact_sci_scene1>p {
+	font-size: 1.8em;
+	font-style: italic;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.40);
+}
+
+.scroll_link_brd {
+	margin-top: 160px;
+}
+
+.section2 {
+	background-image: url(../img/synaptic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 800px;
+	position: relative;
+	margin-top: -100px;
+	background-color: #18d5f1;
+}
+
+.toparrowbg { #
+	background-image: url(../img/svg/arrow_top2.svg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	width: 100%;
+	min-height: 800px;
+}
+
+.joinusLink {
+	background-color: #252525;
+	width: 100%;
+	text-align: center;
+	padding: 12px;
+}
+
+.joinusLink>p>a {
+	color: #999;
+	padding: 8px;
+	font-size: 2em;
+}
+
+.joinusLink>p>a:hover {
+	color: #fff;
+	padding: 12px;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.contactformbrd {
+	padding-top: 0px;
+}
+
+.formbrd {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.sci_textinput {
+	width: 100%;
+	color: #333;
+	font-size: 1.2em;
+	background-color: transparent;
+	border-style: dotted;
+	border-width: 0px 0px 2px 0px;
+	border-color: #999999;
+	outline: 0;
+	margin-bottom: 16px;
+}
+
+.submitlink>a {
+	color: #666;
+	font-size: 2em;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.cancellink>a {
+	color: #999;
+	font-size: 1em;
+	padding: 12px;
+	text-decoration: underline;
+}
+
+#contactform {
+	display: none;
+	min-height: 10px;
+	-webkit-transition: min-height 1s;
+	-moz-transition: min-height 1s;
+	-ms-transition: min-height 1s;
+	-o-transition: min-height 1s;
+	transition: min-height 1s;
+	width: 100%;
+	margib-top: 24px;
+}
+
+#contactform:target {
+	display: inline-block;
+	min-height: 600px;
+	margib-top: 24px;
+	-webkit-transition: min-height 1s;
+	-moz-transition: min-height 1s;
+	-ms-transition: min-height 1s;
+	-o-transition: min-height 1s;
+	transition: min-height 1s;
+}
+
+.scrollnavbrd {
+	position: fixed;
+	z-index: 999;
+	right: 125px !important;
+}
+
+a>.linktop {
+	background-image: url(../img/scroll_btn_top.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 43px !important;
+}
+
+a>.linktop:hover {
+	background-image: url(../img/scroll_btn_top_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 43px !important;
+}
+
+a>.linktop:active {
+	background-image: url(../img/scroll_btn_top_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 43px !important;
+}
+
+a>.linktop_active {
+	background-image: url(../img/scroll_btn_top_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 43px !important;
+}
+
+a>.linkbtn {
+	background-image: url(../img/scroll_btn_normal.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}
+
+a>.linkbtn:hover {
+	background-image: url(../img/scroll_btn_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}
+
+a>.linkbtn:active {
+	background-image: url(../img/scroll_btn_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}
+
+a>.linkbottom {
+	background-image: url(../img/scroll_btn_bottom.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}
+
+a>.linkbottom:hover {
+	background-image: url(../img/scroll_btn_bottom_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}
+
+a>.linkbottom:active {
+	background-image: url(../img/scroll_btn_bottom_active.png) !important;
+	background-repeat: no-repeat !important;
+	width: 25px !important;
+	height: 61px !important;
+}

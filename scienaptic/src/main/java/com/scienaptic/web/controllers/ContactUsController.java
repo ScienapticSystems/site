@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.scienaptic.web.form.Message;
-import com.scienaptic.web.form.Resume;
 import com.scienaptic.web.mail.MailService;
 
 @Controller
@@ -22,9 +21,5 @@ public class ContactUsController {
 	public @ResponseBody void sendMail(@RequestBody Message message) {
 		mailService.sendSecureMail(message);
 	}
-
-	@RequestMapping(value = "/mail", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-	public @ResponseBody void sendResume(@RequestBody Resume resume) {
-		mailService.sendSecureMail(resume);
-	}
+	
 }

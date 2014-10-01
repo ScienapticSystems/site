@@ -12,7 +12,7 @@
 	width: 100%;
 	color: #ffffff;
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 75px;
 }
 
 .sci_scene1>h1 {
@@ -34,11 +34,11 @@
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	width: 100%;
-	min-height: 700px;
+	min-height:500px;
 }
 
 .scroll_link_brd {
-	margin-top: 160px;
+	margin-top: 50px;
 }
 
 /* =Scene2*/

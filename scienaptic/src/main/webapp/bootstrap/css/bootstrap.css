@@ -1077,7 +1077,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 h3,
 .h3 {
@@ -1302,7 +1302,7 @@ blockquote .small:before {
 }
 .blockquote-reverse,
 blockquote.pull-right {
-  padding-right: 15px;
+  padding-right: 30px;
   padding-left: 0;
   border-right: 5px solid #eeeeee;
   border-left: 0;

@@ -25,6 +25,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+				<version>2.2.1</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -38,7 +39,7 @@
 	</build>
 	<artifactId>scienaptic</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.7</version>
+	<version>0.1.8</version>
 	<name>scienaptic</name>
 	<description>changes for dropdown menu</description>
 	<dependencies>

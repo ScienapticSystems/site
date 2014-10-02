@@ -39,7 +39,7 @@
 	</build>
 	<artifactId>scienaptic</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.8</version>
+	<version>0.1.9</version>
 	<name>scienaptic</name>
 	<description>changes for dropdown menu</description>
 	<dependencies>

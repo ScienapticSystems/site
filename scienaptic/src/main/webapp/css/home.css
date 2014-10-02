@@ -216,8 +216,8 @@
 	background-image: url(../img/svg/graphic_group.svg);
 	background-repeat: no-repeat;
 	background-size: cover auto;
-	background-position: right top;
-	height:250px;
+	background-position: right bottom;
+	height:350px;
 }
 
 .scene3Content>article>h1 {
@@ -241,7 +241,8 @@
 }
 
 .whatwedolabelbrd {
-	padding-top: 40px;
+	padding-top: 10px;
+	padding-bottom:10px;
 }
 
 .whatwedolabelbrd>div {

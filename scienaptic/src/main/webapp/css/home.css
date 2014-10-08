@@ -2,6 +2,7 @@
 #scene1 {
 	margin: 0px auto;
 	text-align: center;
+		background-image: url(../img/arrow2.svg);
 }
 
 .sci_scene1 {
@@ -216,8 +217,9 @@
 	background-image: url(../img/svg/graphic_group.svg);
 	background-repeat: no-repeat;
 	background-size: cover auto;
-	background-position: right bottom;
-	height:350px;
+	background-position: left center;
+	height:500px;;
+	width: 400px;
 }
 
 .scene3Content>article>h1 {

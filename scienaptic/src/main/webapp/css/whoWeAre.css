@@ -2,6 +2,8 @@
 #scene1 {
 	margin: 0 auto;
 	text-align: center;
+	min-height: 400px;
+	background-color: #00592d;
 }
 
 .sci_scene1 {
@@ -32,14 +34,14 @@
 .sci_scene1_pattern {
 	background-image: url(../img/home_pattern_02.png);
 	background-repeat: repeat-x;
-	min-height: 600px;
+	min-height: 400px;
 }
 
 .sci_scene1_arrowbg { #
 	background-image: url(../img/arrow2.svg);
 	background-repeat: no-repeat;
 	padding: 24px;
-	min-height: 700px;
+	min-height: 400px;
 	background-position: bottom center;
 	background-size: contain;
 }
@@ -206,7 +208,7 @@
 	background-image: url(../img/howwedo_patter.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
-	min-height: 750px;
+	min-height: 1000px;
 	width: 100%;
 }
 
@@ -679,4 +681,13 @@ joinusLink {
 	-ms-transition: min-height 1s;
 	-o-transition: min-height 1s;
 	transition: min-height 1s;
+}
+
+.scene5How_arrow_bg {
+	background-image: url(../img/svg/arrow3.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+	min-height: 1000px;;
 }

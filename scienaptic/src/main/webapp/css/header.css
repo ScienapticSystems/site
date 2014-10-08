@@ -3,7 +3,6 @@
 	margin-bottom: 0px;
 	background-color: #333333;
 	border-radius: 0px;
-	border-bottom: solid 2px #222222;
 	border-top: none;
 }
 
@@ -79,7 +78,9 @@
 }
 
 .sci-caption {
-	color: #999;
+/*	color: #999;*/
+	color: #fff;
+	
 	font-style: italic;
 	font-size: 1.2em;
 }
@@ -124,7 +125,7 @@
 }
 
 .twitter {
-	background-image: url(../img/twitter_normal.png);
+	background-image: url(../img/twitter_active.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 24px;
@@ -133,7 +134,7 @@
 }
 
 .twitter:hover {
-	background-image: url(../img/twitter_active.png);
+	background-image: url(../img/twitter_normal.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 24px;
@@ -160,7 +161,7 @@
 }
 
 .linkedin {
-	background-image: url(../img/linkedin_normal.png);
+	background-image: url(../img/linkedin_activel.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 24px;
@@ -169,7 +170,7 @@
 }
 
 .linkedin:hover {
-	background-image: url(../img/linkedin_activel.png);
+	background-image: url(../img/linkedin_normal.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 24px;
@@ -213,8 +214,9 @@
 }
 
 .sci_footer1 a {
-	color: #525252;
+	/*color: #525252;*/
 	font-size: 1.2em;
+	color: #ffffff;
 }
 
 .sci_footer1 a:hover {
@@ -228,7 +230,7 @@
 }
 
 .leftInfo {
-	
+	color: #ffffff;
 }
 
 .rightInfo {
@@ -239,12 +241,42 @@
 	font-size: 1.8em;
 	font-style: italic;
 	color: #666;
+	
+}
+.rightInfo>header>h1>a {
+	color: #ffffff;
+	font-style: normal;
+	
+}
+.rightInfo>header>h1>a:hover {
+	font-style: italic;
 }
 
 .rightInfo a {
 	padding-left: 20px;
 	font-size: 1.em;
+	
 }
+.rightInfo a:hover {
+	padding-left: 20px;
+	font-size: 1.em;
+	font-style: italic;
+	
+}
+
+.rightInfo>nav>ul>li>a {
+		float: right;
+		padding-left: 8px;
+		color:#ffffff
+}
+
+
+.rightInfo>nav>a {
+		float: right;
+		padding-left: 8px;
+		color:#ffffff
+}
+
 
 /* = Footer2 */
 .sci_footer2 {
@@ -260,12 +292,15 @@
 }
 
 .sci_footer2 a {
-	color: #545454;
+/*	color: #545454;*/
 	text-decoration: none;
+	
+	color: #ffffff;
 }
 
 .sci_footer2 a:hover {
 	color: #ffffff;
+	font-style: italic;
 }
 
 /* 	-------------------------------------------
@@ -292,6 +327,8 @@
 	.sci_footer2 {
 		
 	}
+	
+	
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -307,4 +344,53 @@
 		background-color: #333333;
 		padding: 6px;
 	}
+}
+
+
+.Data_management_round_frame1 {
+	border-radius: 120px;
+	height: 200px;
+	width: 200px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/graphic-a.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Risk_Management_round_frame1 {
+	border-radius: 120px;
+	height: 200px;
+	width: 200px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/risk_assesment.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.Omni_Channel_CRM_round_frame1 {
+	border-radius: 120px;
+	height: 200px;
+	width: 200px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/360.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.analytics_advisory_round_frame1 {
+	border-radius: 120px;
+	height: 200px;
+	width: 200px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/storyboarding.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
 }

@@ -47,8 +47,10 @@
 	background-size: cover;
 	width: 100%;
 	min-height: 800px;
-	position: relative;
-	margin-top: -100px;
+	position: relative;/* 
+	margin-top: -100px; */
+	padding-left:80px;
+	padding-top:10px;
 	background-color: #18d5f1;
 }
 

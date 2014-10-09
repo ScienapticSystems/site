@@ -30,7 +30,12 @@
 <link rel="stylesheet" href="css/whoWeAre.css">
 <link rel="stylesheet" href="css/affix.css">
 <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+
+
+
 </head>
+
+
 
 <!--<div class="scrollnavbrd">
         	<nav>
@@ -164,116 +169,98 @@
 				<p> <h3>We are bringing together some of the best in business, analytics and technology to deliver on Scienaptic vision.  </h3> </p>
 				</div>
 				<article>
-					<div class="row">
-						<div class="col-xs-2"></div>
-						<div class="pankajLink_active col-xs-4">
-							<a href="#" id="pankajLink">
-								<div class="pankajImg"></div>
-								<h3>
-									Pankaj <br> Kulshreshtha
-								</h3>
-							</a>
-						</div>
-
-						<div class="muthuLink col-xs-4">
-							<a href="#" id="muthuLink">
-								<div class="muthuImg"></div>
-								<h3>
-									Muthukumar<br>Nadarpandian
-								</h3>
-							</a>
-						</div>
-						<div class="col-xs-2"></div>
-					</div>
+				
+						<table style="display: table; border-collapse: separate;border-spacing: 20px;padding-left: 30px;"  >
+						<tr>
+							<td class="teamTd"  id="pankajLink"  onclick=" document.getElementById('pankaj').style.display='block'; document.getElementById('muthu').style.display='none';"-->
+								<img src="img/pankaj_active.png" />
+									Pankaj Kulshreshthaa
+							</td>
+									
+								<td class="teamTd"  id="muthuLink" onclick=" document.getElementById('pankaj').style.display='none'; document.getElementById('muthu').style.display='block';"><!--  onclick="managePhoto('M');" -->
+								<img src="img/muthu_active.png"/>
+								Muthukumar Nadarpandian
+							</td>
+							<td>
+							&nbsp;
+							</td>
+							<td>
+								&nbsp;
+							</td>
+							
+						</tr>
+						
+						<TR>
+						<TD colspan="4"  style="vertical-align:  top;">
+						
+							<div id="pankaj" style="padding-top:30px;padding-right: 30px; vertical-align:  top;height: 360px;" >
+						
+									<div class="panKajArrow_box" >
+									
+									<div style="white-space: nowrap; ">
+												<div style="text-align: left;">
+													<h2>
+															Pankaj Kulshreshthaa <a href="//in.linkedin.com/pub/pankaj-kulshreshtha/1/244/145"><img
+												src="img/linkedin_logo-25x25.png"></a>
+													</h2> 
+													
+												</div>
+											</div>
+										<br>
+										<h4>
+											<p>Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
+											he led and grew Analytics business at Genpact three folds to 6000+ people. He was one of the first few people to join 
+											the Decision Science Center of GE in 1998. Here he built many predictive models himself and then led teams while designing 
+											scalable analytic processes. Since then he has been practising and advising in the art and science of Analytics across marketing and risk functions.</p>
+											<br>
+											
+											<p>Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
+										</h4>
+										<br>
+									</div>
+								</div>
+								
+								<div id="muthu" style="padding-top:30px;padding-right: 30px;vertical-align:  top;height: 360px;" >
+						
+									<div class="muthuArrow_box" >
+									
+									<div style="white-space: nowrap; ">
+												<div style="text-align: left;">
+													<h2>
+															Muthukumar Nadarpandian <a href="//in.linkedin.com/pub/muthu-nadarpandian/2/257/600"><img
+											src="img/linkedin_logo-25x25.png"></a>
+													</h2> 
+													
+												</div>
+											</div>
+										<br>
+										<h4>
+											<p>Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
+											Muthu has worked with Amazon, Citi Bank and GE in the area of CRM, Operations and Risk Management. Throughout his career, 
+											Muthu has focused on designing impactful solutions combining analytics and technology. He has two patents to his credit, a 
+											methodology to drive Incremental Sales and an Offer Optimization Framework. </p>
+											<br>
+										<p>Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
+										</h4>
+										<br>
+									</div>
+								</div>
+						</TD>
+						</TR>
+						</table>
+				
+						
+<script type="text/javascript">
+document.getElementById('pankaj').style.display='block'; document.getElementById('muthu').style.display='none';
+</script>
+					
+					
 				</article>
-				<script type="text/javascript">
-					$(document)
-							.ready(
-									function() {
-										$("#bio").html($('#pankaj').html());
-										$("#muthuLink")
-												.bind(
-														"click",
-														function() {
-															$("#bio")
-																	.html(
-																			$(
-																					'#muthu')
-																					.html());
-															$(".muthuLink")
-																	.removeClass(
-																			"muthuLink")
-																	.addClass(
-																			"muthuLink_active");
+			
 
-															$(
-																	"div.pankajLink_active")
-																	.removeClass(
-																			"pankajLink_active")
-																	.addClass(
-																			"pankajLink");
-															return false;
-														});
-										$("#pankajLink")
-												.bind(
-														"click",
-														function() {
-															$("#bio")
-																	.html(
-																			$(
-																					'#pankaj')
-																					.html());
-															$(
-																	".muthuLink_active")
-																	.removeClass(
-																			"muthuLink_active")
-																	.addClass(
-																			"muthuLink");
-															$("div.pankajLink")
-																	.removeClass(
-																			"pankajLink")
-																	.addClass(
-																			"pankajLink_active");
-															return false;
-														});
-									});
-				</script>
+				
 
-				<div id="bio"></div>
-
-				<div id="pankaj" style="display: none;">
-					<div class="ourText">
-						<div style="text-align: left;">
-							<a href="//in.linkedin.com/pub/pankaj-kulshreshtha/1/244/145"><img
-								src="img/linkedin_logo-25x25.png"></a>
-						</div>
-						<br>
-						<article>
-							<p>Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
-							he led and grew Analytics business at Genpact three folds to 6000+ people. He was one of the first few people to join 
-							the Decision Science Center of GE in 1998. Here he built many predictive models himself and then led teams while designing 
-							scalable analytic processes. Since then he has been practising and advising in the art and science of Analytics across marketing and risk functions.</p>
-							<p>Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
-						</article>
-					</div>
-				</div>
-
-				<div id="muthu" style="display: none;">
-					<div class="ourText">
-						<div style="text-align: left;">
-							<a href="//in.linkedin.com/pub/muthu-nadarpandian/2/257/600"><img
-								src="img/linkedin_logo-25x25.png"></a>
-						</div>
-						<br>
-						<article>
-							<p>Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
-							Muthu has worked with Amazon, Citi Bank and GE in the area of CRM, Operations and Risk Management. Throughout his career, 
-							Muthu has focused on designing impactful solutions combining analytics and technology. He has two patents to his credit, a 
-							methodology to drive Incremental Sales and an Offer Optimization Framework. </p>
-							<p>Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
-						</article>
-					</div>
-				</div>
+				
 			</section>
 
 			<section id="scene2" style="margin-top: -10px;">

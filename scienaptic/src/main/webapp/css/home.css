@@ -215,6 +215,9 @@
 
 .whatwedoImgBrd {
 	background-image: url(../img/svg/graphic_group.svg);
+/* 	background-image: url(../img/svg/home_pg_img.svg); */
+
+
 	background-repeat: no-repeat;
 	background-size: cover auto;
 	background-position: left center;

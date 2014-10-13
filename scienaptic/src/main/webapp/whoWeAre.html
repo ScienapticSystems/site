@@ -31,6 +31,12 @@
 <link rel="stylesheet" href="css/affix.css">
 <script src="js/vendor/modernizr-2.8.0.min.js"></script>
 
+<style>
+*{
+ line-height:30px;
+}
+</style>
+
 
 
 </head>
@@ -66,10 +72,13 @@
 
 	<div class="container" style="width: 1092px !important;">
 		<header>
-			<nav class="navbar navbar-inverse sci_navbar" role="navigation"
-				style="border-left-width: 0px; border-right-width: 0px;">
+			<nav class="navbar navbar-inverse sci_navbar" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="brand-logo-brd">
+						<a class="brand-logo" href="home.html"><img
+							src="img/logo_01.png" width="274" height="85"></a>
+					</div>
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse"
 							data-target="#bs-example-navbar-collapse-1">
@@ -80,10 +89,7 @@
 
 					</div>
 
-					<div class="brand-logo-brd">
-						<a class="brand-logo" href="home.html"><img
-							src="img/logo_01.png" width="274" height="85"></a>
-					</div>
+					
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse"
@@ -146,11 +152,15 @@
 				<div class="sci_scene1" style="margin-bottom: 0px !important;">
 					<div class="sci_scene1_pattern" style="height:400px;">
 						<div class="sci_scene1_arrowbg" style="height: 700px; padding-left:80px;padding-top:40px;padding-right:80px;padding-bottom:0px;">
-							<h1 style="padding-top: 75px; margin-top: 0px;">About us</h1>
-							<br>
-							<h2>We exist to infuse robust data science in organizations.</h2>
+							
+							<h1>"We exist to infuse robust data science in organizations."</h1>
 							<br> <br>
-
+							<h2> <p style="text-align: justify">
+							We are bringing together some of the best in business, analytics and technology to deliver on Scienaptic vision. In addition, several eminent business leaders are our investors and mentors. We shall be able to tell you more about the team members and investors shortly. 
+							</p>
+							</h2>
+							
+		
 						<!-- <div class="scroll_link_brd">
 								<div class="h4">See About us</div>
 								<img src="img/scroll_icon.png" width="72" height="52">
@@ -166,7 +176,7 @@
 				<h1>Our Team</h1>
 				<div class="greenH_line"></div>
 				<div style="text-align: left; padding-left:50px;padding-right:50px; padding-top:30px;"> 
-				<p> <h3>We are bringing together some of the best in business, analytics and technology to deliver on Scienaptic vision.  </h3> </p>
+			<!-- 	<p style="text-align: justify;"> <h3>We are bringing together some of the best in business, analytics and technology to deliver on Scienaptic vision.  </h3> </p> -->
 				</div>
 				<article>
 				
@@ -208,13 +218,13 @@
 											</div>
 										<br>
 										<h4>
-											<p>Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
+											<p style="text-align: justify;">Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
 											he led and grew Analytics business at Genpact three folds to 6000+ people. He was one of the first few people to join 
 											the Decision Science Center of GE in 1998. Here he built many predictive models himself and then led teams while designing 
 											scalable analytic processes. Since then he has been practising and advising in the art and science of Analytics across marketing and risk functions.</p>
 											<br>
 											
-											<p>Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
+											<p style="text-align: justify;"> Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
 										</h4>
 										<br>
 									</div>
@@ -235,12 +245,12 @@
 											</div>
 										<br>
 										<h4>
-											<p>Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
+											<p style="text-align: justify;">Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
 											Muthu has worked with Amazon, Citi Bank and GE in the area of CRM, Operations and Risk Management. Throughout his career, 
 											Muthu has focused on designing impactful solutions combining analytics and technology. He has two patents to his credit, a 
 											methodology to drive Incremental Sales and an Offer Optimization Framework. </p>
 											<br>
-										<p>Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
+										<p style="text-align: justify;">Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
 										</h4>
 										<br>
 									</div>
@@ -273,7 +283,8 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								</div>
 								<div class="greenH_line"></div>
 								<br>
-							<h3 style="padding-left: 80px;padding-right: 80px;">	<ul style="list-style-type: circle;">
+							<h3 style="padding-left: 80px;padding-right: 80px;">	
+									<ul style="list-style-type: circle;">
 									<li>We obsess about making our customers successful.
 									<li>We are in the business of reducing friction.</li>
 									<li>It is OUR job to handle the complexity. </li>
@@ -315,7 +326,7 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								</div>
 								<br>
 								<p>&nbsp;</p>
-								<p>Scienaptic is a neologism combining science and synapse. Science is about creating valid knowledge based on observable facts.
+								<p style="text-align: justify;">Scienaptic is a neologism combining science and synapse. Science is about creating valid knowledge based on observable facts.
 								 The endeavour to help organizations make scientific decisions based on data is fundamental to our vision. Synapses enable neurons to 
 								 transmit signals in the most complex computer we know, the human brain. Synapses inspire us to think of brain like lateral connections, 
 								 we think those connections create step change.</p>
@@ -334,7 +345,7 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 			
 			<section style="margin-top: -10px;" id="scene5" >
 				<div class="scene5How_arrow_bg"  >
-					<div>
+					<div style="padding-left:50px;padding-right: 50px;">
 						<div class="row">
 							<article class="scene5Content ">
 								<div style="text-align: center">
@@ -377,11 +388,12 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 						</div>
 						<h3 style="font-style: italic; margin-top: 30px; color: white;">Fun</h3>
 					</div>
-					</div>
+					
 				<div style="text-align: left; padding-left:50px;padding-top:0px;"> <h1>Who we hire</h1>
 				</div>
 				<div style="text-align: left; padding-left:50px;padding-right:50px;">
-					<h4>
+				<article class="scene5Content ">
+					<p style="text-align: justify;">
 					More than anything else we are looking for high energy, passion for learning and clarity of thought.
 					 We would like you to be able to manage your ego well so that you can be effective in our non-hierarchical organization. 
 					In specific, we are looking for coders and analysts with experience between 2-15 years in the following four areas:				
@@ -401,7 +413,9 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 					You are the <b>Top Geek</b>, you love deep maths. You have built and experimented with range of econometric, machine learning and AI algorithms.
 					<br>
 					<br>
-					</h4>
+					</p>
+					</article>
+					
 				</div>
 				<div class="row">
 					<div class="col-xs-12 text-center">
@@ -410,6 +424,7 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								Now</a>
 						</h3>
 					</div>
+				</div>
 				</div>
 
 						<div class="clearfix"></div>

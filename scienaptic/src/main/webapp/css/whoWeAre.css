@@ -29,21 +29,21 @@
 		rgba(49, 137, 107, 1) 47%, rgba(147, 200, 54, 1) 100%); W3C
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22b8bd',
 		endColorstr='#93c836', GradientType=0); IE6-9 */
-		background-color: #00592d;
+		background-color: #70cf83;
 	margin-bottom: 64px;
 }
 
 .sci_scene1_pattern {
 	background-image: url(../img/home_pattern_02.png);
 	background-repeat: repeat-x;
-	min-height: 400px;
+	min-height: 640px;
 }
 
 .sci_scene1_arrowbg { #
 	background-image: url(../img/arrow2.svg);
 	background-repeat: no-repeat;
 	padding: 24px;
-	min-height: 400px;
+	min-height: 640px;
 	background-position: bottom center;
 	background-size: contain;
 }
@@ -696,7 +696,7 @@ joinusLink {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	width: 100%;
-	min-height: 1000px;;
+	min-height: 1200px;;
 }
 
 .teamTd{

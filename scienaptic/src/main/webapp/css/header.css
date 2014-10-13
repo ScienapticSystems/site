@@ -205,7 +205,7 @@
 .sci_footer1 {
 	text-align: left;
 	background-color: #1c1c1c;
-	color: #525252;
+	color: #e1e1e1;
 }
 
 .sci_footer1 ul {
@@ -216,11 +216,11 @@
 .sci_footer1 a {
 	/*color: #525252;*/
 	font-size: 1.2em;
-	color: #ffffff;
+	color: #e1e1e1;
 }
 
 .sci_footer1 a:hover {
-	color: #ffffff;
+	color:#e1e1e1;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -230,7 +230,7 @@
 }
 
 .leftInfo {
-	color: #ffffff;
+	color: #e1e1e1;
 }
 
 .rightInfo {
@@ -244,12 +244,13 @@
 	
 }
 .rightInfo>header>h1>a {
-	color: #ffffff;
+	color: #e1e1e1;
 	font-style: normal;
 	
 }
 .rightInfo>header>h1>a:hover {
 	font-style: italic;
+	color: #e1e1e1;
 }
 
 .rightInfo a {
@@ -267,14 +268,14 @@
 .rightInfo>nav>ul>li>a {
 		float: right;
 		padding-left: 8px;
-		color:#ffffff
+		color:#eaeaea;
 }
 
 
 .rightInfo>nav>a {
 		float: right;
 		padding-left: 8px;
-		color:#ffffff
+		color:#eaeaea;
 }
 
 
@@ -295,11 +296,11 @@
 /*	color: #545454;*/
 	text-decoration: none;
 	
-	color: #ffffff;
+	color: #e1e1e1;
 }
 
 .sci_footer2 a:hover {
-	color: #ffffff;
+	color: #e1e1e1;
 	font-style: italic;
 }
 

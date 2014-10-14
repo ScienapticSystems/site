@@ -281,11 +281,12 @@
 
 /* = Footer2 */
 .sci_footer2 {
-	padding-top: 20px;
+/* 	padding-top: 20px; */
 	padding-bottom: 15px;
 	background-color: #171717;
 	color: #444444;
 	text-align: center;
+		padding-bottom:30px;
 }
 
 .sci_footer2 p {

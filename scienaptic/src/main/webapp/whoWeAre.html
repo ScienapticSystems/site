@@ -32,8 +32,8 @@
 <script src="js/vendor/modernizr-2.8.0.min.js"></script>
 
 <style>
-*{
- line-height:30px;
+body  {
+ line-height:40px;
 }
 </style>
 
@@ -77,7 +77,7 @@
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="brand-logo-brd">
 						<a class="brand-logo" href="home.html"><img
-							src="img/logo_01.png" width="274" height="85"></a>
+							src="img/logo_01.png" width="274" height="80"></a>
 					</div>
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -93,7 +93,7 @@
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse"
-						id="bs-example-navbar-collapse-1">
+						id="bs-example-navbar-collapse-1"   style="padding-top:10px;">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="home.html"><span
 									class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
@@ -108,7 +108,8 @@
 											Reporting</a></li>
 								</ul></li>
 							<li class="dropdown"><a href="howWeDoIt.html">How It Works</a>
-								<ul class="dropdown-menu" role="menu">
+								<ul class="dropdown-menu" role="menu"
+								style="left: 0px; right: auto !important;">
 									<li><a href="howWeDoIt.html#scene2">Fluid Data
 											Management</a></li>
 									<li><a href="howWeDoIt.html#scene3">Auto Aware,
@@ -119,7 +120,8 @@
 											Storyboarding</a></li>
 								</ul></li>
 							<li class="dropdown"><a class="active" href="whoWeAre.html">About us</a>
-								<ul class="dropdown-menu" role="menu">
+								<ul class="dropdown-menu" role="menu"
+	style="left: 0px; right: auto !important;">
 									<li><a href="whoWeAre.html#scene4">Our Team</a></li>
 									<li><a href="whoWeAre.html#scene2">How we think</a></li>
 									<li><a href="whoWeAre.html#scene3">Our Name</a></li>
@@ -132,7 +134,7 @@
 				</div>
 				<!-- /.container-fluid -->
 			</nav>
-			<nav class="sci_bottomNav">
+			<nav class="sci_bottomNav" style="padding-top:0px;">
 				<div class="container-fluid">
 					<div class="pull-left">
 						<a class="sci-caption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Real Science. Real Time.</a>
@@ -151,7 +153,7 @@
 			<section id="scene1">
 				<div class="sci_scene1" style="margin-bottom: 0px !important;">
 					<div class="sci_scene1_pattern" style="height:400px;">
-						<div class="sci_scene1_arrowbg" style="height: 700px; padding-left:80px;padding-top:40px;padding-right:80px;padding-bottom:0px;">
+						<div class="sci_scene1_arrowbg" style="height: 700px; padding-left:150px;padding-top:40px;padding-right:150px;padding-bottom:0px;">
 							
 							<h1>"We exist to infuse robust data science in organizations."</h1>
 							<br> <br>
@@ -182,75 +184,108 @@
 				
 						<table style="display: table; border-collapse: separate;border-spacing: 20px;padding-left: 30px;"  >
 						<tr>
-							<td class="teamTd"  id="pankajLink"  onclick=" document.getElementById('pankaj').style.display='block'; document.getElementById('muthu').style.display='none';"-->
-								<img src="img/pankaj_active.png" />
-									Pankaj Kulshreshthaa
+						<td style="width:150px;height: 200px;">
+							&nbsp;
+							</td>
+							<td class="photoSize"  id="pankajLink"  onclick=" document.getElementById('pankaj').style.display='block';
+								document.getElementById('pankajContent').style.display='block';
+								document.getElementById('muthu').style.display='none';
+								document.getElementById('muthuContent').style.display='none';"-->
+							<div class="teamTd"><div style="white-space: nowrap;">
+							<a href="//in.linkedin.com/pub/pankaj-kulshreshtha/1/244/145"><img
+												src="img/linkedin_logo-25x25.png"></a>
+												<div>
+												<img  src="img/pankaj_active.png" class="photoSize">
+												</div>
+											</div>
+												&nbsp;&nbsp;<font class="fontSize">Pankaj Kulshreshtha
+												
+													<br>
+												&nbsp;&nbsp;Chief Executive Officer</font>
+													<br>
+									</div>
+									<div id="pankaj"  class="photoActiveLine"></div>
+								
+									
 							</td>
 									
-								<td class="teamTd"  id="muthuLink" onclick=" document.getElementById('pankaj').style.display='none'; document.getElementById('muthu').style.display='block';"><!--  onclick="managePhoto('M');" -->
-								<img src="img/muthu_active.png"/>
-								Muthukumar Nadarpandian
+								<td class="photoSize" id="muthuLink" onclick=" document.getElementById('pankaj').style.display='none'; 
+									document.getElementById('pankajContent').style.display='none';
+									document.getElementById('muthu').style.display='block';
+									document.getElementById('muthuContent').style.display='block';"><!--  onclick="managePhoto('M');" -->
+									<div class="teamTd">
+								<div style="white-space: nowrap;">
+								<a href="//in.linkedin.com/pub/muthu-nadarpandian/2/257/600"><img
+											src="img/linkedin_logo-25x25.png"></a>
+											<div>
+												<img  src="img/muthu_active.jpg" class="photoSize">
+												</div>
+												
+								</div>
+								<font class="fontSize">
+								&nbsp;&nbsp;Muthukumar.N
+									<br>
+									&nbsp;&nbsp;Solutions & Techonology Leader
+									</font>
+									</div>
+										<div id="muthu" class="photoActiveLine"></div>
 							</td>
 							<td>
 							&nbsp;
 							</td>
-							<td>
-								&nbsp;
-							</td>
+							
 							
 						</tr>
 						
 						<TR>
-						<TD colspan="4"  style="vertical-align:  top;">
+						<TD colspan="4"  style="vertical-align:  top;line-height:40px;">
 						
-							<div id="pankaj" style="padding-top:30px;padding-right: 30px; vertical-align:  top;height: 360px;" >
+							<div  id="pankajContent"  style="padding-top:30px;padding-right:150px; padding-left:150px;vertical-align:  top;height: 360px;" >
 						
-									<div class="panKajArrow_box" >
+									<div><!--  class="panKajArrow_box" > -->
 									
 									<div style="white-space: nowrap; ">
 												<div style="text-align: left;">
 													<h2>
-															Pankaj Kulshreshthaa <a href="//in.linkedin.com/pub/pankaj-kulshreshtha/1/244/145"><img
-												src="img/linkedin_logo-25x25.png"></a>
+															Pankaj Kulshreshtha 
 													</h2> 
 													
 												</div>
 											</div>
 										<br>
 										<h4>
-											<p style="text-align: justify;">Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
+											<p style="text-align: justify;line-height:30px;">Pankaj has 20 years of experience in analytics and risk management. Before starting Scienaptic, 
 											he led and grew Analytics business at Genpact three folds to 6000+ people. He was one of the first few people to join 
 											the Decision Science Center of GE in 1998. Here he built many predictive models himself and then led teams while designing 
 											scalable analytic processes. Since then he has been practising and advising in the art and science of Analytics across marketing and risk functions.</p>
 											<br>
 											
-											<p style="text-align: justify;"> Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
+											<p style="text-align: justify;line-height:30px;"> Pankaj is a Mechanical Engineer and has a PhD in Decision Sciences. He loves to read about the confluence of mind, life, and machines. </p>
 										</h4>
 										<br>
 									</div>
 								</div>
 								
-								<div id="muthu" style="padding-top:30px;padding-right: 30px;vertical-align:  top;height: 360px;" >
+								<div   id="muthuContent"  style="padding-top:30px;padding-right: 150px; padding-left: 150px;vertical-align:  top;height: 360px;" >
 						
-									<div class="muthuArrow_box" >
+									<div><!--  class="muthuArrow_box" -->
 									
 									<div style="white-space: nowrap; ">
 												<div style="text-align: left;">
 													<h2>
-															Muthukumar Nadarpandian <a href="//in.linkedin.com/pub/muthu-nadarpandian/2/257/600"><img
-											src="img/linkedin_logo-25x25.png"></a>
+															Muthukumar.N
 													</h2> 
 													
 												</div>
 											</div>
 										<br>
 										<h4>
-											<p style="text-align: justify;">Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
+											<p style="text-align: justify;line-height:30px;">Muthu has16 years of experience in the field of Decision Sciences. Before co-founding Scienaptic, 
 											Muthu has worked with Amazon, Citi Bank and GE in the area of CRM, Operations and Risk Management. Throughout his career, 
 											Muthu has focused on designing impactful solutions combining analytics and technology. He has two patents to his credit, a 
 											methodology to drive Incremental Sales and an Offer Optimization Framework. </p>
 											<br>
-										<p style="text-align: justify;">Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
+										<p style="text-align: justify;line-height:30px;">Muthu is an engineer and has a Masters in Operations Research. He likes to learn and design new AI Algorithms in his spare time.</p>
 										</h4>
 										<br>
 									</div>
@@ -261,17 +296,18 @@
 				
 						
 <script type="text/javascript">
-document.getElementById('pankaj').style.display='block'; document.getElementById('muthu').style.display='none';
+document.getElementById('pankaj').style.display='block'; 
+document.getElementById('pankajContent').style.display='block';
+document.getElementById('muthu').style.display='none';
+document.getElementById('muthuContent').style.display='none';
 </script>
 					
 					
 				</article>
 			
-
-				
-
 				
 			</section>
+
 
 			<section id="scene2" style="margin-top: -10px;">
 				<div class="how_arrow_bg">
@@ -283,9 +319,9 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								</div>
 								<div class="greenH_line"></div>
 								<br>
-							<h3 style="padding-left: 80px;padding-right: 80px;">	
-									<ul style="list-style-type: circle;">
-									<li>We obsess about making our customers successful.
+							<h3 style="padding-left: 150px;padding-right:150px;">	
+									<ul style="list-style-type: circle;line-height: 60px;text-align: justify;">
+									<li>We obsess about making our customers successful.<br>
 									<li>We are in the business of reducing friction.</li>
 									<li>It is OUR job to handle the complexity. </li>
 									<li>We learn every day.</li>
@@ -298,10 +334,10 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 					</div>
 				</div>
 			</section>
-
+			
+			
 			<section style="margin-top: -10px;" id="scene3">
 				<div class="how_arrow_bg">
-					<div>
 						<div class="row">
 							<article class="scene2Content ">
 								<div style="text-align: center">
@@ -309,7 +345,6 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								</div>
 								<div class="greenH_line"></div>
 
-								<div>
 									<div class="sci_cal_caption">
 										<h2>
 											<div>
@@ -323,14 +358,15 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 											<div class="clearfix"></div>
 										</h2>
 									</div>
+									</article>
 								</div>
-								<br>
-								<p>&nbsp;</p>
+				<div style="text-align: left; ">
+				<article class="scene2Content " >
 								<p style="text-align: justify;">Scienaptic is a neologism combining science and synapse. Science is about creating valid knowledge based on observable facts.
 								 The endeavour to help organizations make scientific decisions based on data is fundamental to our vision. Synapses enable neurons to 
 								 transmit signals in the most complex computer we know, the human brain. Synapses inspire us to think of brain like lateral connections, 
 								 we think those connections create step change.</p>
-								<p>In both our technology development, and the way we deliver our services,
+								<p style="text-align: justify;">In both our technology development, and the way we deliver our services,
 								 we employ the concepts of robust knowledge and multiple connections,
 								  thus bringing to life the meaning of our name to every client engagement. 
 								</p>
@@ -340,7 +376,6 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 
 						<div class="clearfix"></div>
 					</div>
-				</div>
 			</section>
 			
 			<section style="margin-top: -10px;" id="scene5" >
@@ -352,13 +387,14 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 								<h1>Careers at Scienpatic</h1>
 								</div>
 								<div class="greenH_line "></div>
-								<div style="text-align: center; padding-top:40px;">
-								<p>We are a talent hungry start up with a mission to create world class software and services. </p>
+								<div style="text-align: center; padding-top:40px;padding-left:100px;padding-right:100px;">
+								<p style="text-align: justify;">We are a talent hungry start up with a mission to create world class software and services. </p>
 								</div>
 							</article>
 						</div>
 						
-					<div style="text-align: left; padding-left:50px;padding-bottom:0px;"> <h1>What we offer </h1></div>
+					<div style="text-align: left;padding-left:100px;padding-right:100px;"> <h1>What we offer </h1></div>
+					<div class="row" style="text-align: left; padding-left:100px;padding-right:100px;">
 					
 					<div class="col-xs-3 text-center" style="text-align: center">
 						<div
@@ -388,10 +424,11 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 						</div>
 						<h3 style="font-style: italic; margin-top: 30px; color: white;">Fun</h3>
 					</div>
+					</div>
 					
-				<div style="text-align: left; padding-left:50px;padding-top:0px;"> <h1>Who we hire</h1>
+				<div style="text-align: left; padding-left:100px;padding-right:100px;"> <h1>Who we hire</h1>
 				</div>
-				<div style="text-align: left; padding-left:50px;padding-right:50px;">
+				<div style="text-align: left; padding-left:100px;padding-right:100px;">
 				<article class="scene5Content ">
 					<p style="text-align: justify;">
 					More than anything else we are looking for high energy, passion for learning and clarity of thought.
@@ -416,7 +453,7 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 					</p>
 					</article>
 					
-				</div>
+			
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<h3 style="font-style: italic; color: #3FC1D7; padding-top: 0px;">
@@ -426,7 +463,7 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 					</div>
 				</div>
 				</div>
-
+	</div>
 						<div class="clearfix"></div>
 				</div>
 			</section>
@@ -562,11 +599,11 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 						<section class="col-xs-6 leftInfo">
 							<header>
 								<h1>
-									<a href="home.html"><img src="img/logo_01.png"></a>
+									<a href="home.html"><img src="img/logo_01.png" height="50" ></a>
 								</h1>
 							</header>
 							<nav class="">
-								<ul>
+								<ul style="line-height:20px;">
 									 <li><a href="whatWeDo.html">What We Do</a></li>
                                     <li><a href="howWeDoIt.html">How It Works</a></li>
                                     <li><a href="whoWeAre.html">About us</a></li>
@@ -575,14 +612,14 @@ document.getElementById('pankaj').style.display='block'; document.getElementById
 						</section>
 
 						<section class="col-xs-6 rightInfo">
-							<header>
+						<!--	<header>
 								<h1>
 									<a href="mailto:info@scienaptic.com">info@scienaptic.com</a>
 								</h1>
 								<br>
-							</header>
+							</header>-->
 							<nav>
-								<ul class="sci_social_footer">
+								<ul class="sci_social_footer" style="padding-top:30px;">
 									<li><a class="twitter" href="#"></a></li>
 									<li><a class="linkedin"
 										href="http://in.linkedin.com/pub/scienaptic-systems/a2/795/915"></a></li>

@@ -259,7 +259,7 @@
 	display: inline-block;
 }
 
-.analytics_advisory_round_frame3 {
+.analytics_advisory_round_frame4{
 	border-radius: 120px;
 	height: 146px;
 	width: 146px;
@@ -270,6 +270,20 @@
 	background-position: center;
 	display: inline-block;
 }
+
+
+.analytics_advisory_round_frame3 {
+	border-radius: 120px;
+	height: 146px;
+	width: 146px;
+	background-color: #FFF;
+	border: solid 3px #99cc33;
+	background-image: url(../img/svg/hw5.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
 
 .Omni_Channel_CRM_round_frame4 {
 	border-radius: 120px;

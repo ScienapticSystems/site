@@ -28,8 +28,8 @@
 <script src="js/vendor/modernizr-2.8.0.min.js"></script>
 
 <style>
-*{
- line-height:30px;
+body  {
+ line-height:40px;
 }
 </style>
 
@@ -59,6 +59,10 @@
 				style="border-left-width: 0px; border-right-width: 0px;">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="brand-logo-brd">
+						<a class="brand-logo" href="home.html"><img
+							src="img/logo_01.png" width="274" height="80"></a>
+					</div>
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse"
 							data-target="#bs-example-navbar-collapse-1">
@@ -69,14 +73,9 @@
 
 					</div>
 
-					<div class="brand-logo-brd">
-						<a class="brand-logo" href="home.html"><img
-							src="img/logo_01.png" width="274" height="85"></a>
-					</div>
-
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse"
-						id="bs-example-navbar-collapse-1">
+						id="bs-example-navbar-collapse-1"  style="padding-top:10px;">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="home.html"><span
 									class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
@@ -92,7 +91,8 @@
 											Reporting</a></li>
 								</ul></li>
 							<li class="dropdown"><a href="howWeDoIt.html">How It Works</a>
-								<ul class="dropdown-menu" role="menu">
+								<ul class="dropdown-menu" role="menu"
+								style="left: 0px; right: auto !important;">
 									<li><a href="howWeDoIt.html#scene2">Fluid Data
 											Management</a></li>
 									<li><a href="howWeDoIt.html#scene3">Auto Aware,
@@ -103,7 +103,8 @@
 											Storyboarding</a></li>
 								</ul></li>
 							<li class="dropdown"><a href="whoWeAre.html">About us</a>
-								<ul class="dropdown-menu" role="menu">
+								<ul class="dropdown-menu" role="menu"
+								style="left: 0px; right: auto !important;">
 									<li><a href="whoWeAre.html#scene4">Our Team</a></li>
 									<li><a href="whoWeAre.html#scene2">How we think</a></li>
 									<li><a href="whoWeAre.html#scene3">Our Name</a></li>
@@ -116,7 +117,7 @@
 				</div>
 				<!-- /.container-fluid -->
 			</nav>
-			<nav class="sci_bottomNav">
+			<nav class="sci_bottomNav" style="padding-top:0px;">
 				<div class="container-fluid">
 					<div class="pull-left">
 						<a class="sci-caption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Real Science. Real Time.</a>
@@ -282,6 +283,7 @@ div.gray_white {
 										  <li>Design analytically optimized underwriting strategies customer acquisition and lifecycle.</li>
 										 <li>Create a robust test & learn environment to manage risk appetite.</li>
 										</ul> 
+										</font>
 									</div>
 								</div>
 							</article>
@@ -416,7 +418,7 @@ div.gray_white {
 							<article class="col-xs-6 brd2">
 								<div class="row">
 									<div class="col-xs-4">
-										<div class="analytics_advisory_round_frame3"></div>
+										<div class="analytics_advisory_round_frame4"></div>
 									</div>
 									<div class="col-xs-8">
 										<h4>Storyboarding for strategic impact </h4>
@@ -492,7 +494,7 @@ div.gray_white {
 										<ul style="list-style-type:circle">
 										 <li>Build visually rich, real-time dashboards for management decision with interactive UI for drill-downs and scenarios.</li>
 										</ul> 
-										
+										</font>
 										
 									</div>
 								</div>
@@ -512,11 +514,11 @@ div.gray_white {
 						<section class="col-xs-6 leftInfo">
 							<header>
 								<h1>
-									<a href="home.html"><img src="img/logo_01.png"></a>
+									<a href="home.html"><img src="img/logo_01.png" height="50" ></a>
 								</h1>
 							</header>
 							<nav class="">
-								<ul>
+								<ul style="line-height:20px;">
 									<li><a href="whatWeDo.html">What We Do</a></li>
                                     <li><a href="howWeDoIt.html">How It Works</a></li>
                                     <li><a href="whoWeAre.html">About us</a></li>
@@ -525,14 +527,14 @@ div.gray_white {
 						</section>
 
 						<section class="col-xs-6 rightInfo">
-							<header>
+							<!-- <header>
 								<h1>
 									<a href="mailto:info@scienaptic.com">info@scienaptic.com</a>
 								</h1>
 								<br>
-							</header>
+							</header> -->
 							<nav>
-								<ul class="sci_social_footer">
+								<ul class="sci_social_footer" style="padding-top:30px;">
 									<li><a class="twitter" href="#"></a></li>
 									<li><a class="linkedin"
 										href="http://in.linkedin.com/pub/scienaptic-systems/a2/795/915"></a></li>
@@ -542,13 +544,14 @@ div.gray_white {
 					</div>
 				</div>
 
-				<br> <br>
+				<br>
+				<br>
 				<div class="clearfix"></div>
 			</footer>
 
 			<!-- Copyright info footer -->
-			<footer class="sci_footer2">
-				<div>
+			<footer class="sci_footer2" >
+				<div >
 					<div style="padding-bottom: 20px;">
 						<div class="col-xs-12 col-xs-6">
 							<p class="leftInfo">Copyright : Scienaptic Systems Inc. 2014</p>

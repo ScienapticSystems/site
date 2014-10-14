@@ -34,8 +34,8 @@
 
 
 <style>
-*{
- line-height:30px;
+body  {
+ line-height:40px;
 }
 </style>
 </head>
@@ -60,10 +60,13 @@
 
 	<div class="container" style="width: 1092px !important;">
 		<header>
-			<nav class="navbar navbar-inverse sci_navbar" role="navigation"
-				style="border-left-width: 0px; border-right-width: 0px;">
+			<nav class="navbar navbar-inverse sci_navbar" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="brand-logo-brd">
+						<a class="brand-logo" href="home.html"><img
+							src="img/logo_01.png" width="274" height="80"></a>
+					</div>
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse"
 							data-target="#bs-example-navbar-collapse-1">
@@ -71,16 +74,12 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-					</div>
 
-					<div class="brand-logo-brd">
-						<a class="brand-logo" href="home.html"><img
-							src="img/logo_01.png" width="274" height="85"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse"
-						id="bs-example-navbar-collapse-1">
+						id="bs-example-navbar-collapse-1"  style="padding-top:10px;">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="home.html"><span
 									class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
@@ -95,7 +94,8 @@
 											Reporting</a></li>
 								</ul></li>
 							<li class="dropdown"><a class="active" href="howWeDoIt.html">How It Works</a>
-								<ul class="dropdown-menu" role="menu">
+								<ul class="dropdown-menu" role="menu"
+style="left: 0px; right: auto !important;">
 									<li><a href="howWeDoIt.html#scene2">Fluid Data
 											Management</a></li>
 									<li><a href="howWeDoIt.html#scene3">Auto Aware,
@@ -105,8 +105,9 @@
 									<li><a href="howWeDoIt.html#scene5">Visualization &
 											Storyboarding</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="whoWeAre.html">About us</a>
-								<ul class="dropdown-menu" role="menu">
+								<li class="dropdown"><a href="whoWeAre.html">About us</a>
+									<ul class="dropdown-menu" role="menu"
+								style="left: 0px; right: auto !important;">
 									<li><a href="whoWeAre.html#scene4">Our Team</a></li>
 									<li><a href="whoWeAre.html#scene2">How we think</a></li>
 									<li><a href="whoWeAre.html#scene3">Our Name</a></li>
@@ -119,8 +120,7 @@
 				</div>
 				<!-- /.container-fluid -->
 			</nav>
-
-			<nav class="sci_bottomNav">
+			<nav class="sci_bottomNav" style="padding-top:0px;">
 				<div class="container-fluid">
 					<div class="pull-left">
 						<a class="sci-caption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Real Science. Real Time.</a>
@@ -268,11 +268,11 @@
 						<section class="col-xs-6 leftInfo">
 							<header>
 								<h1>
-									<a href="home.html"><img src="img/logo_01.png"></a>
+									<a href="home.html"><img src="img/logo_01.png" height="50" ></a>
 								</h1>
 							</header>
 							<nav class="">
-								<ul>
+								<ul style="line-height:20px;">
 									<li><a href="whatWeDo.html">What We Do</a></li>
                                     <li><a href="howWeDoIt.html">How It Works</a></li>
                                     <li><a href="whoWeAre.html">About us</a></li>
@@ -281,14 +281,14 @@
 						</section>
 
 						<section class="col-xs-6 rightInfo">
-							<header>
+							<!-- <header>
 								<h1>
 									<a href="mailto:info@scienaptic.com">info@scienaptic.com</a>
 								</h1>
 								<br>
-							</header>
+							</header> -->
 							<nav>
-								<ul class="sci_social_footer">
+								<ul class="sci_social_footer" style="padding-top:30px;">
 									<li><a class="twitter" href="#"></a></li>
 									<li><a class="linkedin"
 										href="http://in.linkedin.com/pub/scienaptic-systems/a2/795/915"></a></li>
@@ -298,13 +298,14 @@
 					</div>
 				</div>
 
-				<br> <br>
+				<br>
+				<br>
 				<div class="clearfix"></div>
 			</footer>
 
 			<!-- Copyright info footer -->
-			<footer class="sci_footer2">
-				<div>
+			<footer class="sci_footer2" >
+				<div >
 					<div style="padding-bottom: 20px;">
 						<div class="col-xs-12 col-xs-6">
 							<p class="leftInfo">Copyright : Scienaptic Systems Inc. 2014</p>
@@ -322,8 +323,9 @@
 
 		</footer>
 
-	</div>
+		
 
+	</div>
 	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>

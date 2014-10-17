@@ -234,8 +234,8 @@
 .scene3Content>article>p {
 	font-size: 1.8em;
 	color: #888;
-	padding-left: 6%;
-	padding-right: 6%;
+	padding-left: 50px;
+	padding-right:50px;
 }
 
 .hLine2 {

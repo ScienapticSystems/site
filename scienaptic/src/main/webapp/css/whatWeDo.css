@@ -1,6 +1,6 @@
 /* =Scene1*/
 #scene1 {
-	background-color: #6bcfc2;
+	background-color: #4fc6b7;
 	background-image: url(../img/home_pattern_01.png);
 	background-repeat: repeat-x;
 	min-height:540px;
@@ -46,6 +46,8 @@
 	padding-top: 40px;
 	color: #666;
 	padding-bottom: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .scene2Content>h2 {
@@ -74,9 +76,9 @@
 }
 
 .Omni_Channel_CRM_round_frame1 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/360.svg);
@@ -86,9 +88,9 @@
 }
 
 .Omni_Channel_CRM_round_frame2 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/multichannel.svg);
@@ -98,9 +100,9 @@
 }
 
 .Omni_Channel_CRM_round_frame3 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/marketing.svg);
@@ -110,9 +112,9 @@
 }
 
 .Omni_Channel_CRM_round_frame4 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/sales_force.svg);
@@ -127,7 +129,13 @@
 	padding-top: 40px;
 	color: #666;
 	padding-bottom: 80px;
+	
 }
+.scene3Content{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+	
 
 .scene3Content>h2 {
 	font-size: 2em;
@@ -155,9 +163,9 @@
 }
 
 .Risk_Management_round_frame1 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/risk_assesment.svg);
@@ -167,9 +175,9 @@
 }
 
 .Risk_Management_round_frame2 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/portfolio.svg);
@@ -179,9 +187,9 @@
 }
 
 .Risk_Management_round_frame3 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/regulation.svg);
@@ -191,9 +199,9 @@
 }
 
 .Risk_Management_round_frame4 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/management_of_fraud.svg);
@@ -208,6 +216,12 @@
 	background: #ffffff;
 	color: #666;
 	padding-bottom: 80px;
+}
+
+
+.scene4Content{
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .scene4Content>h2 {
@@ -236,9 +250,9 @@
 }
 
 .analytics_advisory_round_frame1 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/data_science_coe.svg);
@@ -248,9 +262,9 @@
 }
 
 .analytics_advisory_round_frame2 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/cutting_edge.svg);
@@ -260,9 +274,9 @@
 }
 
 .analytics_advisory_round_frame4{
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/storyboarding.svg);
@@ -273,9 +287,9 @@
 
 
 .analytics_advisory_round_frame3 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/hw5.svg);
@@ -286,9 +300,9 @@
 
 
 .Omni_Channel_CRM_round_frame4 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/sales_force.svg);
@@ -304,6 +318,12 @@
 	color: #666;
 	padding-bottom: 80px;
 }
+.scene5Content{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
 
 .scene5Content>h2 {
 	font-size: 2em;
@@ -331,9 +351,9 @@
 }
 
 .Data_management_round_frame1 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/graphic-a.svg);
@@ -343,9 +363,9 @@
 }
 
 .Data_management_round_frame2 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/real_time_reporting.svg);
@@ -355,9 +375,9 @@
 }
 
 .Data_management_round_frame3 {
-	border-radius: 120px;
-	height: 146px;
-	width: 146px;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
 	background-color: #FFF;
 	border: solid 3px #99cc33;
 	background-image: url(../img/svg/regulation.svg);

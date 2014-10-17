@@ -2,7 +2,7 @@
 #scene1 {
 	margin: 0 auto;
 	text-align: center;
-	min-height: 400px;
+	min-height: 540px;
 	background-color: #aaaaaa;
 	
 }
@@ -29,21 +29,22 @@
 		rgba(49, 137, 107, 1) 47%, rgba(147, 200, 54, 1) 100%); W3C
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22b8bd',
 		endColorstr='#93c836', GradientType=0); IE6-9 */
-		background-color: #70cf83;
+	background-color: #70cf83;
+	#background-color: #FFE11A;
 	margin-bottom: 64px;
 }
 
 .sci_scene1_pattern {
 	background-image: url(../img/home_pattern_02.png);
 	background-repeat: repeat-x;
-	min-height: 640px;
+	min-height: 540px;
 }
 
 .sci_scene1_arrowbg { #
 	background-image: url(../img/arrow2.svg);
 	background-repeat: no-repeat;
 	padding: 24px;
-	min-height: 640px;
+	min-height: 540px;
 	background-position: bottom center;
 	background-size: contain;
 }
@@ -82,7 +83,7 @@
 }
 
 .scene2Content>p {
- padding-left:150px;padding-right:150px;
+ padding-left:100px;padding-right:100px;
 }
 
 .scene2Content>ul {
@@ -695,13 +696,13 @@ joinusLink {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	 width: 100%;
-	min-height: 1500px;;
+	min-height: 1400px;;
 }
 
 .teamTd{
 	border: thin;
 /* 	background-color:  #AEC7E1; */
-	background-color:  #b1b1b1;
+	background-color:  #A1A1A1;
 	padding:0px;
 	color: white;
 	text-align: left;
@@ -725,7 +726,7 @@ background-image: url(../img/pankaj_active.png);
 
 .muthuImg {
 	
-background-image: url(../img/muthu_active.jpg);
+background-image: url(../img/muthu_active.png);
 	background-position: left top;
 	background-repeat: no-repeat;
 	
@@ -833,9 +834,24 @@ background-image: url(../img/muthu_active.jpg);
 	vertical-align: top;
 }
 
+.photoSize1{
+	width:220px;height: 200px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+
 .fontSize{
 	 font-family: sans-serif;
   font-weight: bold;
+  line-height: 1.1;
+  color: black;
+	
+}
+
+.fontSizeDesg{
+	 font-family: sans-serif;
+  font-weight: normal;
   line-height: 1.1;
   color: black;
 	
